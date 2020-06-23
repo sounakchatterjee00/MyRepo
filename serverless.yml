@@ -8,3 +8,8 @@ provider:
 functions:
   hello:
     handler: handler.hello
+    events:
+      - http:
+         path: test/version1
+         method: post
+         cors: true
