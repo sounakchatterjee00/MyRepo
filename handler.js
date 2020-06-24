@@ -14,5 +14,4 @@ module.exports.hello = async event => {
       2
     ),
   };
-
 };
